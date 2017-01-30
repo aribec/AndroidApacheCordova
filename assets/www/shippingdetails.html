@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Detall d'enviament</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    
+    <body>
+        
+	<div id="header" class="header">
+		<a href="state.html" class="nav">Tornar</a>
+		<h1>Envia UOC</h1>
+	</div>
+    <div class="app">
+        <div id="header2">
+            <h2>Detall d'enviament</h2>
+        </div>
+        
+        <div id="wrapper">
+            <div>
+            <p><label>Enviament</label><input type="text" disabled id="name" /></p><br>
+            <p><label>Estat</label><input type="text" disabled id="state" /></p><br>
+			<p><label>Data d'enviament</label><input type="text" disabled id="sendingDate" /></p><br>
+            <p><label>Data d'entrega</label><input type="text" disabled id="deliveryDate" /></p><br>
+            <p><label>Direcció d'enviament</label><textarea disabled id="deliveryAddress"></textarea></p><br>
+            <p><label>Direcció d'origen</label><textarea disabled id="sendAddress"></textarea></p><br>
+          	<p><label>Localització</label><input type="text" disabled id="location" /></p><br>
+            </div>
+        </div>
+    </div>
+	<script src="js/phonegap.js" charset="utf-8"></script>
+    <script src="js/encoder.js" charset="utf-8"></script>
+	<script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/iscroll.js" charset="utf-8"></script>
+    <script src="js/shippingdetails.js" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">app.getShipping();</script>
+
+    </body>
+
+</html>

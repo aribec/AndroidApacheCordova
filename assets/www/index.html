@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+    <div id="header" class="header">
+        <a id="loginBtn" style="text-size=14" class="sav">Entrar</a>
+		<h1>Envia UOC</h1>
+	</div>
+    <div id="header2">
+			<h2>Benvingut a Envia UOC</h2>
+    </div>
+        
+      <div id="wrapper" class="app">
+		<p>
+      <img src="img/logo.png"/>
+	  <div id="detail">
+    	<p>
+        <label id="userName">Usuari</label><br>
+        <input type="text" id="userNameTxt">
+        <br><br>
+        <label id="password">Password</label><br>
+        <input type="password" id="passwordTxt">
+      	<br><br>
+     </div>
+        </div>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/index.js"></script><script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

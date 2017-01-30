@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Envia UOC</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+	<script type="text/javascript" charset="utf-8" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script type="text/javascript" charset="utf-8" src="js/shippingPoint.js"></script>
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8" ></script>
+  </head>
+  <body>
+  
+    <div id="header" class="header">
+    	<a href="state.html" class="nav">Tornar</a>
+        <a id="saveShippingBtn" class="sav">Guardar</a>
+		<h1>Envia UOC</h1>
+	</div>
+    
+    <div>
+        <div id="header2">
+			<h2>Nou Enviament</h2>
+      	</div>
+        
+        <div id="wrapper">
+        <div>
+            <p><label>Nom</label><input type="text" id="name" /></p><br>
+            <p><label>Data d'entrega</label><input type="text" id="deliveryDate"/></p><br>
+            <p><label id="origendesti">Escull origen: <img src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"></label><label id="origendesti"> i destí: <img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"></label></p><br><br><br>
+            <p>
+                <div id="map_canvas">
+    			</div>
+            </p><br>
+        </div>
+	    </div>
+        
+	</div>
+
+  </body>
+</html>
